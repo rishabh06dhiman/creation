@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  LOGO = "assets/logo.png";
+  
+
   constructor() { }
 
   ngOnInit() {

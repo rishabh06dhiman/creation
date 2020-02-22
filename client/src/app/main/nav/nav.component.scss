@@ -1,12 +1,111 @@
-// .nav-row{
-//     box-shadow: 0px 2px 2px -3px rgba(0, 0, 0, 0.12), 0px 5px 7px 1px rgba(0, 0, 0, 0.14), 0px 1px 8px 2px rgba(0, 0, 0, 0.12);
-// }
+.nav-row {
+    background-color: #2874f0;
+}
+.left-col {
+    align-items: center;
+    img {
+        background-color: #f5f5f5;
+        height: 60px;
+        margin-top: 5px;
+        margin-left: 30px;
+        cursor: pointer;
+        
+    }
+}
 
-// .row{
-//     background-color: #F5F5F5;
-// }
+.center-col {
 
-// .left-col{
-//     align-items: center;
+    align-items: center;
+
+    .serach-bar {
+        
+        text-align: center; 
+        position: absolute;
+        top: 14px;
+        left: 200px;
+       
+        
+           
+    }
+    .serach-bar input {
+        
+        height: 30px;
+        width: 500px;
+   
+    }
+
+    .fa-search:before{
+        position: absolute;
+        top: 10px;
+        left: 480px;
+    }
+
+}
+
+.right-col {
+
+    #nav {
+        position: absolute;
+        top: 20px;
+        left: 850px;
+        margin-left: 80px;
+        // padding: 0px 200px 0px 100px;
+    }
+
+
     
-// }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        // overflow: hidden;
+        // padding: 0px 70px 150px 200px;
+        // margin: auto;
+        padding: 0px 200px 0px 100px;
+
+        
+      }
+      
+      li {
+        float: right;
+        font-size: 20px;
+        padding-left: 50px;
+      }
+      
+      li a {
+        display: block;
+        color: #f5f5f5;
+        text-align: center;
+       
+        
+        // padding: 0px 50px 0px ;
+        
+        text-decoration: none;
+       
+      }
+
+      .btn {
+          font-size: 20px;
+          margin-right: 10px;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+
+         
+         
+         
+      }
+
+      .fa-shopping-cart:before {
+          position: absolute;
+          left: 280px;
+      }
+
+      .fa-angle-down:before {
+          position: absolute;
+          left: 195px;
+      }
+      
+     
+}
+
